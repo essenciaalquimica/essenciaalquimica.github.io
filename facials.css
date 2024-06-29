@@ -1,0 +1,111 @@
+body{
+    background-color: #F9ECD3;
+}
+
+.titulFacials {
+    width: 80%;
+    margin-left: 18%;
+    margin-right: auto;
+    font-family: Cambria;
+    text-align: left;
+    display: flex;
+    margin-top: 2%;
+}
+
+.letraFacials{
+    font-size: xx-large;
+    border-bottom: 3px solid black;
+}
+
+.button{
+    width: 10%; /*200px*/
+    height: 10vh; /*100px*/
+    transition: all 0.6s ease;
+    cursor: pointer;
+    color: black;
+    align-items: center;
+    text-decoration: none;
+    display: flex;
+    font-size: large;
+    font-family: Cambria;
+    margin-left: 72.5%;
+    margin-top: -3.5%;
+}
+
+.inici{
+    margin-left: auto;
+    margin-right: auto;
+    border-width: 1%;
+    border-color: rgb(140, 124, 78);
+    border-style: double; /*ridge o outset o double*/
+    border-radius: 5% 20%;
+    font-size: larger;
+}
+
+.boxTotal{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 20%;
+    margin-left: 0%;
+}
+
+.box{
+    display: grid;
+    width: 150%; /*200px*/
+    height: 14vh; /*100px*/
+    color: black;
+    transition: all 0.6s ease;
+    border-radius: 25%;
+    cursor: pointer;
+    align-items: center;
+    margin-left: -40%;
+    justify-content: center;
+    font-size: x-large;
+    text-decoration: none;
+}
+
+.box:hover{
+    transform: scale(1.5)
+}
+
+@media (min-width: 320px) and (max-width: 767px){
+    .box{
+        width: 80%;
+        font-size: medium;
+        justify-content: left;
+    }
+
+    .box:hover{
+        transform: scale(1)
+    }
+
+    .button{
+        margin-left: 80%;
+        margin-top: 3%;
+    }
+
+    .inici{
+        font-size: small; 
+    }
+
+    .boxTotal{
+        margin-left: 3%;
+        display: block;
+        grid-gap: 0%;
+        grid-template-columns: none;
+        margin-top: -7%;
+        position: absolute;
+    }
+
+    .titulFacials{
+        margin-left: 3%;
+        position: absolute;
+        margin-top: 6%;
+    }
+
+    .letraFacials{
+        font-size: large;
+        border-bottom: 1px solid black;
+        margin-top: 0%;
+    }
+}

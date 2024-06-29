@@ -1,0 +1,82 @@
+body{
+    background-color: #F9ECD3;
+}
+
+.titulPellAcneica {
+    width: 80%;
+    margin-left: 18%;
+    margin-right: auto;
+    font-family: Cambria;
+    text-align: left;
+    display: flex;
+    margin-top: 2%;
+}
+
+.letraPellAcneica{
+    font-size: xx-large;
+    border-bottom: 3px solid black;
+}
+
+.button1{
+    width: 10%; /*200px*/
+    height: 10vh; /*100px*/
+    transition: all 0.6s ease;
+    cursor: pointer;
+    color: black;
+    align-items: center;
+    text-decoration: none;
+    display: flex;
+    font-size: large;
+    font-family: Cambria;
+    margin-left: 43%;
+}
+
+.inici{
+    margin-left: auto;
+    margin-right: auto;
+    border-width: 1%;
+    border-color: rgb(140, 124, 78);
+    border-style: double; /*ridge o outset o double*/
+    border-radius: 5% 20%;
+    font-size: larger;
+}
+
+.button2{
+    width: 10%; /*200px*/
+    height: 10vh; /*100px*/
+    transition: all 0.6s ease;
+    cursor: pointer;
+    color: black;
+    align-items: center;
+    text-decoration: none;
+    display: flex;
+    font-size: large;
+    font-family: Cambria;
+    margin-left: 7%;
+}
+
+.enrere{
+    margin-left: auto;
+    margin-right: auto;
+    border-width: 1%;
+    border-color: rgb(140, 124, 78);
+    border-style: double; /*ridge o outset o double*/
+    border-radius: 5% 20%;
+    font-size: larger;
+}
+
+@media (min-width: 320px) and (max-width: 767px){
+    .button1{
+        margin-left: 20%;
+        margin-top: 10%;
+    }
+
+    .button2{
+        margin-left: 20%;
+        margin-top: 10%;
+    }
+
+    .titulPellAcneica{
+        margin-left: 0%;
+    }
+}
